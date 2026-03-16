@@ -89,17 +89,3 @@ Raw genotype and phenotype data are not included in this repository due to patie
 - Matched case-control IDs provided by Prof. Amit Arora (Mar 2025)
 """
 
-# Save README to project folder
-with open(BASE / 'README.md', 'w') as f:
-    f.write(readme)
-
-print('✅ README.md saved to:', BASE / 'README.md')
-print()
-print('Now run these in the VS Code Terminal (Ctrl+`) to push to GitHub:')
-print()
-print('git init')
-print('git add .')
-print('git commit -m "Initial commit - GWAS gallstone analysis pipeline"')
-print('git branch -M main')
-print('git remote add origin https://github.com/YourUsername/gallstone-gwas-analysis.git')
-print('git push -u origin main')
